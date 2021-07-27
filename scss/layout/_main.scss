@@ -1,0 +1,61 @@
+ /* INICIO ESTILO MAIN DE INDEX.HTML*/
+  
+ #main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $background_principal;
+    
+  }
+  
+  .col {
+    padding-top: 5em;
+    padding-left: 3em;
+  }
+  
+  .btn-card{
+    color: black;
+    background-color: rgb(238, 181, 76);
+    font-weight: bold;
+    font-family: $font_principal;
+    
+  }
+  
+  /* FIN ESTILO MAIN DE INDEX.HTML*/
+
+  /* main de contacto, mascotas.html , paisajes.html y bodas.html */
+  
+  #mainContacto {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $background_principal;
+  }
+
+  #mainMascotas {
+    @extend #mainContacto;
+  }
+
+  #mainPaisajes {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $background_principal;
+  }
+
+  #mainBodas {
+    @extend #mainContacto;
+  }
+
+  /* carousel en los mains de mascotas.html , paisajes.html y bodas.html */
+
+  .carousel{
+    width: 85%;
+    margin: 0 auto;
+  }
+
+#descripcionC{
+  font-weight: bolder;
+  font-family: $font_principal;
+  background-color: $background_principal;
+  height: 5vh;
+
+  
+}

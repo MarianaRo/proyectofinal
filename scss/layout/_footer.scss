@@ -1,0 +1,32 @@
+/* INICIO ESTILO FOOTER*/
+#footer {
+	display: none;
+	width: 100%;
+	ul {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		list-style: none;
+		background-color: #282828;
+		margin-bottom: 0px;
+	}
+	li {
+		padding: 0px 30px;
+		align-items: center;
+		height: 50%;
+		width: 80px;
+	}
+}
+i {
+	color: #f4f4f4;
+	text-align: center;
+}
+
+
+ 
+  
+  /*fin estilo footer*/
+  

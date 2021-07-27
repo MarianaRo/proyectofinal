@@ -1,0 +1,167 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+#header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../imagenes/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+#header::before {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgba 255, 255, 255, 0.1, rgba 34, 40, 49, 1);
+  opacity: 0.9; }
+
+.bg-dark {
+  z-index: 20;
+  width: 100%; }
+
+.navg a {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase; }
+
+a:hover {
+  background-color: #eeb54c; }
+
+.text-header {
+  min-height: 100vh;
+  color: #f4f4f4;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; }
+  .text-header h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder; }
+  .text-header p {
+    font-size: 1em;
+    font-weight: bold; }
+
+.btn-yo {
+  padding: 7px 12px;
+  color: black;
+  background-color: #eeb54c;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif; }
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; }
+
+.navC a {
+  color: black !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.navg a {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase; }
+  .navg a a:hover {
+    background-color: #eeb54c; }
+
+/* INICIO ESTILO MAIN DE INDEX.HTML*/
+#main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f1f1ef; }
+
+.col {
+  padding-top: 5em;
+  padding-left: 3em; }
+
+.btn-card {
+  color: black;
+  background-color: #eeb54c;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif; }
+
+/* FIN ESTILO MAIN DE INDEX.HTML*/
+/* main de contacto, mascotas.html , paisajes.html y bodas.html */
+#mainContacto, #mainMascotas, #mainBodas {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f1f1ef; }
+
+#mainPaisajes {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f1f1ef; }
+
+/* carousel en los mains de mascotas.html , paisajes.html y bodas.html */
+.carousel {
+  width: 85%;
+  margin: 0 auto; }
+
+#descripcionC {
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f1f1ef;
+  height: 5vh; }
+
+.btn-yo {
+  padding: 7px 12px;
+  color: black;
+  background-color: #eeb54c;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif; }
+
+.btn-card {
+  color: black;
+  background-color: #eeb54c;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif; }
+
+#galeria .col-lg-4 {
+  padding: 25px; }
+  #galeria .col-lg-4 img {
+    width: 100%;
+    height: 250px; }
+  #galeria .col-lg-4 img:hover {
+    border: 5px solid #f7f7f7; }
+  #galeria .col-lg-4 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder; }
+
+/* INICIO ESTILO FOOTER*/
+#footer {
+  display: none;
+  width: 100%; }
+  #footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    list-style: none;
+    background-color: #282828;
+    margin-bottom: 0px; }
+  #footer li {
+    padding: 0px 30px;
+    align-items: center;
+    height: 50%;
+    width: 80px; }
+
+i {
+  color: #f4f4f4;
+  text-align: center; }
+
+/*fin estilo footer*/
