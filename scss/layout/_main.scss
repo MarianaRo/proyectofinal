@@ -10,7 +10,7 @@
   .col {
     padding-top: 5em;
     padding-left: 3em;
-  }
+  } 
   
   .btn-card{
     color: black;
@@ -35,9 +35,7 @@
   }
 
   #mainPaisajes {
-    width: 100%;
-    min-height: 100vh;
-    background-color: $background_principal;
+    @extend #mainContacto;
   }
 
   #mainBodas {
@@ -54,8 +52,67 @@
 #descripcionC{
   font-weight: bolder;
   font-family: $font_principal;
-  background-color: $background_principal;
+  font-size: 20px;
   height: 5vh;
 
   
 }
+
+/* banner pie de pagina index */
+.bannerPie{
+  min-width: 100vw;
+  height: auto;
+  text-align: center;
+  margin-top: 30px;
+  background-color: black;
+}
+
+
+
+
+/*media queries main paisajes.html , bodas.html , mascotas.html */
+
+@media screen and (max-width: 576px) {
+  .carouselCarousel {
+    width: 90% !important;
+  }
+  #descripcionC{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carouselCarousel {
+    width: 90% !important;
+
+  }
+  #descripcionC{
+    font-size: 12px;
+}
+  #footer{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .carouselCarousel {
+    width: 80% !important;
+
+  }
+  .bannerPie{
+    display: none;
+  }
+  #descripcionC{
+    font-size: 14px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+  #descripcionC{
+    font-size: 10px;
+  }
+}
+
+

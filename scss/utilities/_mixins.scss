@@ -17,16 +17,3 @@
     @include botonesEstilo (#eeb54c,black ,bold);
 }
 
-/*
-@mixin estiloMain ($ancho, $alto, $colorFondo){
-    width:$ancho;
-    min-height: $alto;
-    background-color: $colorFondo;
-}
-
-
-#mainContacto, #mainBodas, #mainMascotas, #mainPaisajes{
-    @include estiloMain(100%,100vh ,#F1F1EF);
-}
-
-*/

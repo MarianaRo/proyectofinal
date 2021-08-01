@@ -63,53 +63,72 @@
 
 </header>
 
-    <main id="mainPaisajes">
-      <div class=" container text-center pt-5">
-        <h1> Paisajes </h1>
-    </div>
-      <div id="carouselExampleControls" class="carousel slide w-50 m-auto" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../imagenes/paisajeUno.png" class="d-block w-100" alt=" paisaje montañoso con espejo de agua">
-          </div>
-          <div class="carousel-item">
-            <img src="../imagenes/paisajeDos.png" class="d-block w-100" alt="paisaje montañoso con espejo de agua">
-          </div>
-          <div class="carousel-item">
-            <img src="../imagenes/paisajeTres.png" class="d-block w-100" alt="paisajes montañoso">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+<main id="mainPaisajes">
+  <div class="container text-center pt-5 mb-4">
+    <h1> Paisajes </h1>
+</div>
+  <div id="carouselExampleControls" class="carousel slide w-50 m-auto carouselCarousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../imagenes/paisajeUno.png" class="d-block w-100" alt="paisaje montañoso con espejo de agua">
       </div>
+      <div class="carousel-item">
+        <img src="../imagenes/paisajeDos.png" class="d-block w-100" alt="paisaje montañoso con espejo de agua">
+      </div>
+      <div class="carousel-item">
+        <img src="../imagenes/paisajeTres.png" class="d-block w-100" alt="paisaje montañoso">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<div class="container">
+  <hr>
+</div>
+  <div id="descripcionC" class="container text-center mt-3 mb-5">
+        <p>En Capturando Instantes podemos congelar en el tiempo la imagen de tu paisaje soñado para un cuadro a tu gusto
+
+        </p>
+  </div>
+  <div class="container">
+    <hr>
+  </div>
     
-      <div id="descripcionC" class="container-fluid text-center pt-5">
-        <figure>
-          <blockquote class="blockquote">
-            <p>En Capturando Instantes captamos los paisajes más inspiradores y podemos adaptarlos para cuadros a tu gusto</p>
-          </blockquote>
-        </figure>
+      <div class=" bannerPie container-fluid img-fluid">
+        <img src="../imagenes/fotografia.png" alt=" banner con camara y nombre de la pagina">
+
       </div>
     </main>
 
      <!--Inicio de etiqueta footer-->
-     <footer id="footer">
-        
-          <ul>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-2x"></i></a></li>
-            <li><a href="https://es-la.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square fa-2x"></i></a></li>
-            <li><a href="https://www.pinterest.es/" target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest fa-2x"></i></a></li>
+             
       
-          </ul>
-        
-        
-      </footer>
+      
+     <footer class="footerNav" id="footer">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto" id="copy"><a href="https://www.linkedin.com/">&copy; Mariana R Pettorossi</a></div>
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"> <i class="fab fa-facebook-square fa-2x"></i></a>
+            <a class="nav-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram fa-2x"></i></a>
+            <a class="nav-link" href="https://wa.me/+541140761263" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp fa-2x"></i></a>      
+              
+          </div>
+        </div>
+        </div>
+      </nav>
+  </footer>
     
    <!-- JS library -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
