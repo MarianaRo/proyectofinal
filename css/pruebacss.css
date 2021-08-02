@@ -85,6 +85,30 @@ a:hover {
     .text-header p {
       font-size: 6px; } }
 
+@media screen and (max-width: 992px) {
+  .text-header {
+    padding: 8px; }
+    .text-header h2 {
+      font-size: 12px; }
+    .text-header p {
+      font-size: 10px; } }
+
+@media screen and (max-width: 1200px) {
+  .text-header {
+    padding: 8px; }
+    .text-header h2 {
+      font-size: 15px; }
+    .text-header p {
+      font-size: 12px; } }
+
+@media screen and (max-width: 1400px) {
+  .text-header {
+    padding: 8px; }
+    .text-header h2 {
+      font-size: 20px; }
+    .text-header p {
+      font-size: 15px; } }
+
 .navg a {
   color: white !important;
   font-family: "Montserrat", sans-serif;
@@ -138,6 +162,10 @@ a:hover {
   background-color: black; }
 
 /*media queries main paisajes.html , bodas.html , mascotas.html */
+@media screen and (max-width: 400px) {
+  #descripcionC {
+    font-size: 10px; } }
+
 @media screen and (max-width: 576px) {
   .carouselCarousel {
     width: 90% !important; }
@@ -161,9 +189,19 @@ a:hover {
   #descripcionC {
     font-size: 14px; } }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1200px) {
+  .carouselCarousel {
+    width: 40% !important; }
+  .bannerPie {
+    display: none; }
   #descripcionC {
-    font-size: 10px; } }
+    font-size: 14px; } }
+
+@media screen and (max-width: 1400px) {
+  .carouselCarousel {
+    width: 50% !important; }
+  #descripcionC {
+    font-size: 14px; } }
 
 .btn-yo {
   padding: 7px 12px;

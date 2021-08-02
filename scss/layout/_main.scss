@@ -72,6 +72,13 @@
 
 /*media queries main paisajes.html , bodas.html , mascotas.html */
 
+@media screen and (max-width: 400px) {
+  #descripcionC{
+    font-size: 10px;
+  }
+}
+
+
 @media screen and (max-width: 576px) {
   .carouselCarousel {
     width: 90% !important;
@@ -88,7 +95,7 @@
   }
   #descripcionC{
     font-size: 12px;
-}
+  }
   #footer{
     display: flex;
     flex-direction: column;
@@ -109,10 +116,29 @@
 
 }
 
-@media screen and (max-width: 400px) {
-  #descripcionC{
-    font-size: 10px;
+
+@media screen and (max-width: 1200px) {
+  .carouselCarousel {
+    width: 40% !important;
+
   }
+  .bannerPie{
+    display: none;
+  }
+  #descripcionC{
+    font-size: 14px;
 }
 
+}
 
+@media screen and (max-width: 1400px) {
+  .carouselCarousel {
+    width: 50% !important;
+
+  }
+ 
+  #descripcionC{
+    font-size: 14px;
+}
+
+}
